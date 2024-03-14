@@ -1,0 +1,21 @@
+1.create a folder called templates
+2.create a urls file and give reference of views
+3.create a static folder
+
+https://www.youtube.com/watch?v=NUqtNglEcCU
+for deployment
+1. create requirements.txt
+how to, just run the command : 
+pip freeze > requirements.txt
+
+2. create runtime.txt
+how to, just run the command :
+python --version
+
+3. change setting in the project file:
+ALLOWED_HOSTS = ["*"]
+
+4. change setting in the project file:
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+run command 
+python manage.py collectstatic
