@@ -1,15 +1,9 @@
 asgiref>=3.7
 django>=4.1, <4.2 
-django-admin-material-dashboard>=1.0.10 
-Faker>=23.3
 gunicorn>=21.2
 mysqlclient>=2.2
 packaging>=23.2
 pillow  # Latest version
 python-dateutil>=2.8
 python-dotenv>=1.0
-six>=1.16
-sqlparse>=0.4
-typing_extensions>=4.9
-tzdata>=2022
 whitenoise>=6.5
